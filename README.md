@@ -5,10 +5,12 @@
 			i. Script needs to be saved in xml format.
 		b. Nmap
 			i. The scan must input the arpscan.xml file
-		c. Nikto
+		c. **Nikto**
 			i. Need to parse the IP so it can be feed into the command
-			ii. The scan must input the arpscan.xml file
-			iii. Open a new terminal & name the header "Nikto"
+			1) This reads the arpscan and 
+			2) Prints out the ip
+			3) grep -E "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" ips.txt
+
 		d. Wpscan
 			i. The scan must input the arpscan.xml file
 			ii. Open a new terminal & name the header "Wpscan"
