@@ -10,6 +10,7 @@
 			1) This reads the arpscan and 
 			2) Prints out the ip
 			3) grep -E "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)" ips.txt
+			     4)Resource - https://www.putorius.net/grep-an-ip-address-from-a-file.html
 
 		d. Wpscan
 			i. The scan must input the arpscan.xml file
